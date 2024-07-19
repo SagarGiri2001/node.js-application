@@ -4,7 +4,7 @@ RUN apk add --no-cache python3 g++ make
 
 WORKDIR /app
 
-COPPY . .
+COPY . .
 
 RUN yarn install --production
 
